@@ -22,7 +22,7 @@ body {
     height: 74px;
     overflow: hidden;
     z-index: 100;
-    /* background-image: url(../images/menu-displacement-home-yellowsvg-04.svg); */
+    background-image: url(../images/menu-displacement-home-yellowsvg-04.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1670,7 +1670,7 @@ nav.home-full-menu-cities.mobile.events ul li a {
     font-weight: 800;
     line-height: 35px;
     font-size: 2em;
-    color: #D5066D;
+    color: #0e0d0d;
 
     position: absolute;
     top: 600px;
@@ -1686,7 +1686,7 @@ nav.home-full-menu-cities.mobile.events ul li a {
     font-size: 2em;
     color: transparent;
     -webkit-text-stroke-width: 1.5px;
-	-webkit-text-stroke-color: #D5066D;
+	-webkit-text-stroke-color: #0e0d0d;
 
     position: absolute;
     top: 630px;
@@ -1701,7 +1701,7 @@ nav.home-full-menu-cities.mobile.events ul li a {
 	font-size: 1.2em;
     font-weight: 400;
     line-height: 20px;
-    color: #D5066D;
+    color: #0e0d0d;
 
     position: absolute;
     top: 660px;
@@ -1758,7 +1758,7 @@ nav.home-full-menu-cities.mobile.events ul li a {
 .artista-info-icons .info {
 	display: inline-block;
     font-size: 0.8em;
-    color: #D5066D;
+    color: #E0B800;
     font-weight: 600;
     padding-left: 10px;
 }
@@ -1780,7 +1780,7 @@ nav.home-full-menu-cities.mobile.events ul li a {
 
 .dudas-wrapp {
 	padding: 73px 0 100px;
-    background: rgb(194, 20, 101);
+    background: #ffc933;
     overflow: hidden;
 }
 
@@ -1812,7 +1812,7 @@ nav.home-full-menu-cities.mobile.events ul li a {
 }
 
 .dudas-wave {
-	background: url(../images/dudas-wave-pink.svg) no-repeat;
+	background: url(../images/dudas-wave-pink1.svg) no-repeat;
     position: absolute;
     width: 113%;
     height: 160%;
@@ -1846,13 +1846,13 @@ nav.home-full-menu-cities.mobile.events ul li a {
 
 .search-wrapp {
     padding-bottom: 300px;
-	background: rgba(254,38,110,1);
-	background: -moz-linear-gradient(top, rgba(254,38,110,1) 0%, rgba(254,38,110,1) 7%, rgba(194,20,101,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,38,110,1)), color-stop(7%, rgba(254,38,110,1)), color-stop(100%, rgba(194,20,101,1)));
-	background: -webkit-linear-gradient(top, rgba(254,38,110,1) 0%, rgba(254,38,110,1) 7%, rgba(194,20,101,1) 100%);
-	background: -o-linear-gradient(top, rgba(254,38,110,1) 0%, rgba(254,38,110,1) 7%, rgba(194,20,101,1) 100%);
-	background: -ms-linear-gradient(top, rgba(254,38,110,1) 0%, rgba(254,38,110,1) 7%, rgba(194,20,101,1) 100%);
-	background: linear-gradient(to bottom, rgba(254,38,110,1) 0%, rgba(254,38,110,1) 7%, rgba(194,20,101,1) 100%);
+	background: #E0B800;
+	background: -moz-linear-gradient(top, #E0B800 0%, #E0B800 7%, #E0B800 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #e07700), color-stop(7%, #e07700), color-stop(100%, #e07700));
+	background: -webkit-linear-gradient(top, #E0B800 0%, #E0B800 7%, #E0B800 100%);
+	background: -o-linear-gradient(top, #E0B800 0%, #E0B800 7%, #E0B800 100%);
+	background: -ms-linear-gradient(top, #E0B800 0%, #E0B800 7%, #E0B800 100%);
+	background: linear-gradient(to bottom, #E0B800 0%, #E0B800 7%, #E0B800 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe266e', endColorstr='#c21465', GradientType=0 );
 }
 
@@ -1946,7 +1946,7 @@ input.search-dudas.active {
 .tag-txt:hover {
     transform:scale(1.1);
     transition:0.25s ease-out;
-    background: #e0b800;
+    background: #003366;
     color:white;
 }
 .tag-mobile:hover{
@@ -2230,13 +2230,13 @@ nav.cities-footer ul {
 
 /* * * * FULL SCREEN NAV * * * */
 #full-screen-nav {
-	background: rgba(255,23,116,1);
-	background: -moz-linear-gradient(left, rgba(255,23,116,1) 0%, rgba(199,20,130,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,23,116,1)), color-stop(100%, rgba(199,20,130,1)));
-	background: -webkit-linear-gradient(left, rgba(255,23,116,1) 0%, rgba(199,20,130,1) 100%);
-	background: -o-linear-gradient(left, rgba(255,23,116,1) 0%, rgba(199,20,130,1) 100%);
-	background: -ms-linear-gradient(left, rgba(255,23,116,1) 0%, rgba(199,20,130,1) 100%);
-	background: linear-gradient(to right, rgba(255,23,116,1) 0%, rgba(199,20,130,1) 100%);
+	background: #003366;
+	background: -moz-linear-gradient(left, #003366 0%, #012a53 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #003366), color-stop(100%, #012a53));
+	background: -webkit-linear-gradient(left, #003366 0%, #012a53 100%);
+	background: -o-linear-gradient(left, #003366 0%, #012a53 100%);
+	background: -ms-linear-gradient(left, #003366 0%, #012a53 100%);
+	background: linear-gradient(to right, #003366 0%, #012a53 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1774', endColorstr='#c71482', GradientType=1 );
 	overflow: hidden;
 }
@@ -2437,13 +2437,13 @@ nav.cities-footer ul {
 
 /* * * * FULL SCREEN ENTRADAS * * * */
 #full-screen-entradas {
-    background: rgba(255,23,116,1);
-	background: -moz-linear-gradient(left, rgba(255,23,116,1) 0%, rgba(199,20,130,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,23,116,1)), color-stop(100%, rgba(199,20,130,1)));
-	background: -webkit-linear-gradient(left, rgba(255,23,116,1) 0%, rgba(199,20,130,1) 100%);
-	background: -o-linear-gradient(left, rgba(255,23,116,1) 0%, rgba(199,20,130,1) 100%);
-	background: -ms-linear-gradient(left, rgba(255,23,116,1) 0%, rgba(199,20,130,1) 100%);
-	background: linear-gradient(to right, rgba(255,23,116,1) 0%, rgba(199,20,130,1) 100%);
+    background: #003366;
+	background: -moz-linear-gradient(left, #003366 0%, #012a53 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #003366), color-stop(100%, #012a53));
+	background: -webkit-linear-gradient(left, #003366 0%, #012a53 100%);
+	background: -o-linear-gradient(left, #003366 0%, #012a53 100%);
+	background: -ms-linear-gradient(left, #003366 0%, #012a53 100%);
+	background: linear-gradient(to right, #003366 0%, #012a53 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1774', endColorstr='#c71482', GradientType=1 );
 	overflow: hidden;
 }
