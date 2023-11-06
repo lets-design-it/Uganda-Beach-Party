@@ -178,7 +178,6 @@
         ttq.page();
       })(window, document, "ttq");
     </script>
-
     <!-- Google Analytics -->
     <!-- <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -720,93 +719,45 @@
                   <div class="bubble-50 bubble-n4"></div>
                   <div class="bubble-50 bubble-n5"></div>
                   <div class="bubble-50 bubble-n6 s"></div>
-                  <div class="bubble-100 bubble-n7"></div>
+                  <!-- <div class="bubble-100 bubble-n7"></div> -->
                   <div class="bubble-100 bubble-n8"></div>
                   <div class="bubble-50 bubble-n9 b"></div>
                   <div class="bubble-50 bubble-n10"></div>
                   <!-- END BUBBLE PARTICLES -->
 
-                  <div class="logo-rbf">
-                    <img
-                      src="images/TTFOQ1xsmKwfbzrZckwz.png"
-                      width="85%"
-                      alt="logo Reggaeton Beach Festival"
-                    />
+                  <div class="countdown-content">
+                  
+                    <h1>WELCOME TO THE <br> <span>UGANDAN BEACH PARTY 2023 </span></h1>
+
+                    <div class="launch-time">
+                      <div>
+                        <p id="days">00</p>
+                        <span>Days</span>
+                      </div>
+
+                      <div>
+                        <p id="hours">00</p>
+                        <span>Hours</span>
+                      </div>
+
+                      <div>
+                        <p id="minutes">00</p>
+                        <span>Minutes</span>
+                      </div>
+
+                      <div>
+                        <p id="seconds">00</p>
+                        <span>Seconds</span>
+                      </div>
+
+                    </div>
                   </div>
 
                   <!-- CONTENT -->
-                  <div class="info-content">
-                    <div class="info-content-left">
-                      <div class="content">
-                        <div class="title">
-                          UGANDA <br />
-                          BEACH
-                        </div>
-                        <div class="subtitle">
-                          FESTIVAL<br />
-                          2023
-                        </div>
-                        <div class="city">ENTEBBE</div>
-                      </div>
-                      <div class="image">
-                        <img
-                          src="/images/model1.png"
-                          alt="Imagen festival"
-                          width="500"
-                        />
-                        </div>
-                    </div>
-                    <div class="info-content-right">
-                        <div class="image">
-                        <img
-                          src="/images/African Clothing for Men.png"
-                          alt="Imagen festival"
-                          width="500"
-                        />
-                      </div>
-                    </div>
-
-                    <!-- <div class="info-content-right">
-                      <div class="content">
-                        <div class="txt">
-                         <p><strong>El paraíso del perreo vuelve por 6.ª vez consecutiva en Barcelona repleto de novedades, sorpresas, zonas mejoradas y una experiencia única creada para los amantes del Reggaeton junto a los artistas TOP mundiales que formarán el mayor Lineup de la historia. Un nuevo mundo está a punto de llegar...</strong></p>
-                          <p>
-                            <strong
-                              >The paradise of perreo returns for the 6th
-                              consecutive time to Barcelona full of novelties,
-                              surprises, improved areas and a unique experience
-                              created for Reggaeton lovers together with the
-                              world's TOP artists that will form the biggest
-                              lineup in history. A new world is
-                              coming...</strong
-                            >
-                          </p>
-                        </div>
-                        <div class="date">
-                          20 & 21 DE JULIO 2024
-                          20 &amp; 21 JULY 2024
-                        </div>
-                        <div class="schedule">
-                          RECINTO RBF 
-                          RBF VENUE
-                        </div>
-                        <div class="location">
-                           Barcelona 
-                          BARCELONA
-                        </div>
-                      </div>-->
-                      <!-- <div class="image">
-                        <img
-                          src="images/h8rNmTNLW7tZkuRduJPj.jpg"
-                          alt="Imagen festival"
-                          width="300"
-                        />
-                      </div> -->
-                    <!-- </div> -->
-                  </div>
+                  
                   <!-- END CONTENT -->
 
-                  <div class="big-title">party</div>
+                  <!-- <div class="big-title">party</div> -->
 
                   <!-- <div class="yellow-line"></div> -->
 
@@ -10027,6 +9978,28 @@
                 };
               })(jQuery, simplyCountdown);
         </script>
+
+        <!-- countdowntimer -->
+<script>
+  var countdowndate = new date("Dec 6,2023 00:00:00").getTime();
+  var x = setInterval(function() {
+    var now = new date().getTime();
+    var  distance = countdowndate-now;
+
+    var days = Math.floor(distance/(1000*60*60*24));
+    var hours = Math.floor(distance%(1000*60*60*24)/(1000*60*60));
+    var minutes = Math.floor(distance%(1000*60*60 )/(1000*60 ));
+    var seconds= Math.floor(distance%(1000*60 )/(1000));
+
+    document.getElementById("days").innerHTML = days
+    document.getElementById("hours").innerHTML = hours
+    document.getElementById("minutes").innerHTML = minutes
+    document.getElementById("seconds").innerHTML = seconds
+
+  }, 1000);
+  // countdown timer 
+
+</script>
 
         <script>
           simplyCountdown("#cuenta", {

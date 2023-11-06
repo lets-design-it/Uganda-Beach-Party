@@ -1182,11 +1182,38 @@ nav.home-full-menu-cities.mobile.events ul li a {
     z-index: 2;
 }
 
-.logo-rbf {
+.countdown-content {
+
 	position: absolute;
 	left: 7%;
 	z-index: 1;
-	width: 37%;
+	width: 80%;
+    color:#fafaf8;
+}
+
+.countdown-content h1 span{
+    font-size: 3rem;
+	font-weight: bold;
+    color:#E0B800;
+
+}
+
+.launch-time{
+    display: flex;
+}
+
+.launch-time div{
+    flex-basis:150px;
+}
+
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.launch-time div span{
+    font-size: 30px;
+    font-weight: lighter;
 }
 
 .info-content {
@@ -1598,7 +1625,7 @@ nav.home-full-menu-cities.mobile.events ul li a {
     z-index: 2;
     width: 100%;
     height: 1000px;
-    background: url(../images/web-color1.png) no-repeat;
+    /* background: url(../images/web-color1.png) no-repeat; */
     background-size: 100%;
 }
 
